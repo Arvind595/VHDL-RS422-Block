@@ -1,0 +1,14 @@
+Time resolution is 1 ps
+Note: --- STARTING TEST 1: Full 8-Byte Loopback ---
+Time: 210 ns  Iteration: 0  Process: /tb_rs422_packet_controller/stim_proc  File: C:/Arvind/Projects/PMSS/VHDL/RS422 Generic/VHDL RS422 Block/universal_rs422/universal_rs422.srcs/sim_1/new/tb_rs422_packet_controller.vhd
+Note: -> TEST 1 PASSED: 8 bytes received successfully via loopback!
+Time: 690870 ns  Iteration: 1  Process: /tb_rs422_packet_controller/stim_proc  File: C:/Arvind/Projects/PMSS/VHDL/RS422 Generic/VHDL RS422 Block/universal_rs422/universal_rs422.srcs/sim_1/new/tb_rs422_packet_controller.vhd
+Note: --- STARTING TEST 2: Timeout Recovery Simulation ---
+Time: 700870 ns  Iteration: 0  Process: /tb_rs422_packet_controller/stim_proc  File: C:/Arvind/Projects/PMSS/VHDL/RS422 Generic/VHDL RS422 Block/universal_rs422/universal_rs422.srcs/sim_1/new/tb_rs422_packet_controller.vhd
+Note: Wire broken at 3 bytes. Waiting >5ms for timeout flag...
+Time: 957230 ns  Iteration: 2  Process: /tb_rs422_packet_controller/stim_proc  File: C:/Arvind/Projects/PMSS/VHDL/RS422 Generic/VHDL RS422 Block/universal_rs422/universal_rs422.srcs/sim_1/new/tb_rs422_packet_controller.vhd
+Note: -> TEST 2 PASSED: Timeout error triggered and RX state recovered!
+Time: 5957250 ns  Iteration: 1  Process: /tb_rs422_packet_controller/stim_proc  File: C:/Arvind/Projects/PMSS/VHDL/RS422 Generic/VHDL RS422 Block/universal_rs422/universal_rs422.srcs/sim_1/new/tb_rs422_packet_controller.vhd
+Note: --- ALL TESTS COMPLETED ---
+Time: 5957250 ns  Iteration: 1  Process: /tb_rs422_packet_controller/stim_proc  File: C:/Arvind/Projects/PMSS/VHDL/RS422 Generic/VHDL RS422 Block/universal_rs422/universal_rs422.srcs/sim_1/new/tb_rs422_packet_controller.vhd
+$stop called at time : 5967250 ns : File "C:/Arvind/Projects/PMSS/VHDL/RS422 Generic/VHDL RS422 Block/universal_rs422/universal_rs422.srcs/sim_1/new/tb_rs422_packet_controller.vhd" Line 145
